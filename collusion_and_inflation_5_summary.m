@@ -410,7 +410,7 @@ plot(results.Inflation, results.Length, 'LineWidth',2,'Color', 'b')
 hold on
 title('Time Between Price Changes')
 xlabel('Inflation')
-ylabel('Thresholds')
+ylabel('Periods')
 saveas(gcf, 'collusion_and_inflation_5_time_inaction.png')
 close(figure(2))
 
